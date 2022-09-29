@@ -1,7 +1,7 @@
 import react, { useState } from "react";
 
 function Watchlist({ addWatch }) {
-  const [movieData, setMovieData] = useState({
+  const [movies, setMovies] = useState({
     date: "",
     description: "",
     movie: "",
@@ -9,19 +9,19 @@ function Watchlist({ addWatch }) {
 
   function handleChange(e) {
     const key = e.target.id
-    setMovieData({
-      ...movieData,
+    setMovies({
+      ...movies,
       [key]: e.target.value
     })
   }
   function handleSubmit(e) {
     e.preventDefault()
-    fetch("https://api.themoviedb.org/3/search/movie?api_key=<<api_key>>&language=en-US&page=1&include_adult=false", {
+    fetch("http://localhost:8001/movies", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(movieData),
+      body: JSON.stringify(Movie),
     })
       .then((res) => res.json())
       .then((data) => addWatch(data));
@@ -37,7 +37,7 @@ function Watchlist({ addWatch }) {
   return (
     <div>
       <form className="watchlist form" onSubmit={handleSubmit}>
-        <input type="text" name="watchlist" value={movieData.watchlist} id="watchlist" placeholder="Add to watchlist" onChange={handleChange} />
+        <input type="text" name="watchlist" value={movie.watchlist} id="watchlist" placeholder="Add to watchlist" onChange={handleChange} />
         <button className="watchlist button" type="submit" >
           Add movie to Watchlist
         </button>
