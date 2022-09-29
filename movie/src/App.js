@@ -1,7 +1,10 @@
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import logo from './logo.svg';
 import { useState } from 'react';
 import AddMovie from './AddMovie';
 import './App.css';
+import Homepage from './components/Homepage';
 
 import Comments from "./components/comments"
 
@@ -15,6 +18,7 @@ function App() {
 
   return (
     <div className="App">
+      			<Homepage/>
 
       <Comments/>
       <AddMovie />
@@ -22,5 +26,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
