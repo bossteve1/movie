@@ -1,7 +1,11 @@
-import react, { useState } from "react"
+import react, { useState } from "react";
 
 function Watchlist({ addWatch }) {
-  const [movieData, setMovieData] = useState([])
+  const [movieData, setMovieData] = useState({
+    date: "",
+    description: "",
+    movie: "",
+  })
 
   function handleChange(e) {
     const key = e.target.id
