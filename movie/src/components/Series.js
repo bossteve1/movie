@@ -1,4 +1,4 @@
-import Items from '../Db.json'
+import Items from '../db.json'
 function Series(){
     return(
         <div>
