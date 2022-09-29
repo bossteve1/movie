@@ -2,8 +2,12 @@
 import { useState } from 'react';
 import AddMovie from './AddMovie';
 import './App.css';
+
+import Comments from "./components/comments"
+
 import Watchlist from './Components/Watchlist';
 import watch from "./data/data";
+
 
 
 function App() {
@@ -11,6 +15,8 @@ function App() {
 
   return (
     <div className="App">
+
+      <Comments/>
       <AddMovie />
       <Watchlist list={list} setList={setList} />
     </div>
