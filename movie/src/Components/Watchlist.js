@@ -1,54 +1,24 @@
-import react, { useState } from "react";
+import React from "react";
+import ListForm from "./ListForm";
+import List from "./List";
 
-function Watchlist({ addWatch }) {
-  const [movies, setMovies] = useState({
-    date: "",
-    description: "",
-    movie: "",
-  })
+function Watchlist({ list, setList }) {
 
-  function handleChange(e) {
-    const key = e.target.id
-    setMovies({
-      ...movies,
-      [key]: e.target.value
-    })
+  function listFormSubmit(newMovie) {
+    const updateMovieList = [...list, newMovie]
+    setList(updateMovieList)
   }
-  function handleSubmit(e) {
-    e.preventDefault()
-    fetch("http://localhost:8001/movies", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(Movie),
-    })
-      .then((res) => res.json())
-      .then((data) => addWatch(data));
-  }
-  const moviesList = movies.map((movie) => {
-    return (
-      <li key={movie} style={{ movie: movie }}>
-        {movie}
-      </li>
-    );
-  });
 
   return (
     <div>
-      <form className="watchlist form" onSubmit={handleSubmit}>
-        <input type="text" name="watchlist" value={movie.watchlist} id="watchlist" placeholder="Add to watchlist" onChange={handleChange} />
-        <button className="watchlist button" type="submit" >
-          Add movie to Watchlist
-        </button>
-        <div>
-          <h1>To Watch Soon</h1>
-          <ol>
-            {moviesList}
-          </ol>
-        </div>
-      </form>
+      <ListForm onListFormSubmit={listFormSubmit} />
+      <ul>
+        {list.map((list) => (
+          <List key={list.id} title={list.title} />
+        ))}
+      </ul>
     </div>
   );
 }
+
 export default Watchlist;
