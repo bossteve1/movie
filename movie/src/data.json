@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "Peaky Blinders",
+      "seasons": "Season 5",
+      "director": "Otto Bathurst",
+      "genres": ["Action", "Adventure", "Fantasy", "Epic"]
+    },
+    {
+      "id": 2,
+      "title": "Ozark",
+      "seasons": "Season 4",
+      "director": "Amanda Marsalis",
+     "genres": ["Crime", "Adventure", "Fantasy", "Thriller"]
+    },
+    {
+      "id": 3,
+      "title": "Game of Thrones",
+      "seasons": "Season 8",
+      "director": "D.B. Weiss",
+     "genres": ["Action", "Adventure", "Epic", "Drama", "Thriller"]
+    }
+
+  ]
