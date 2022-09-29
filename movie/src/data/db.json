@@ -1,0 +1,64 @@
+{
+  "movies": [
+    {
+      "crawled_at": "11/17/2019, 23:18:09",
+      "description": "\n            Indiana Jones (Harrison Ford) is no ordinary archeologist. When we first see him, he is somewhere in the Peruvian jungle in 1936, running a booby-trapped gauntlet (complete with an over-sized rolling boulder) to fetch a solid-gold idol. He loses this artifact to his chief rival, a French archeologist named Belloq (Paul Freeman), who then prepares to kill our hero. In the first of many serial-like escapes, Indy eludes Belloq by hopping into a convenient plane. So, then: is Indiana Jones afraid of anything? Yes, snakes.\"        ",
+      "directed_by": "Steven Spielberg",
+      "poster": "https://cps-static.rovicorp.com/2/Open/CinemaSource/Indiana%20Jones%20and%20The%20Raiders%20of%20the%20Lost%20Ark%20%20The%20IMAX%20Experience/_derived_jpg_q90_600x800_m0/140449R1_CR.jpg",
+      "produced_by": "na",
+      "title": "Raiders of the Lost Ark",
+      "url": "https://www.allmovie.com/movie/raiders-of-the-lost-ark-v40118",
+      "id": 1
+    },
+    {
+      "crawled_at": "11/17/2019, 23:18:09",
+      "description": "\n            John Huston's 1948 treasure-hunt classic begins as drifter Fred C. Dobbs (Humphrey Bogart), down and out in Tampico, Mexico, impulsively spends his last bit of dough on a lottery ticket. Later on, Dobbs and fellow indigent Curtin (Tim Holt) seek shelter in a cheap flophouse and meet Howard (Walter Huston), a toothless, garrulous old coot who regales them with stories about prospecting for gold.        ",
+      "directed_by": "John Huston",
+      "poster": "https://cps-static.rovicorp.com/2/Open/Turner%20Classic%20Movies/The%20Treasure%20of%20the%20Sierra%20Madre/_derived_jpg_q90_500x500_m0/TreasureOfTheSierraMadre_PosterArt1.jpg",
+      "produced_by": "na",
+      "title": "The Treasure of the Sierra Madre",
+      "url": "https://www.allmovie.com/movie/the-treasure-of-the-sierra-madre-v50884",
+      "id": 2
+    },
+    {
+      "crawled_at": "11/17/2019, 23:18:09",
+      "description": "\n            Taiwanese filmmaker Ang Lee took a break from making Western period dramas to fashion this wild and woolly martial arts spectacular featuring special effects and action sequences courtesy of the choreographer of The Matrix (1999), Yuen Woo Ping. In the early 19th century, martial arts master Li Mu Bai (Chow Yun-Fat) is about to retire and enter a life of meditation, though he quietly longs to avenge the death of his master, who was killed by Jade Fox (Cheng Pei-pei).        ",
+      "directed_by": "Ang Lee",
+      "poster": "https://cps-static.rovicorp.com/2/Open/Sony%20Pictures/Crouching%20Tiger%2c%20Hidden%20Dragon/_derived_jpg_q90_500x500_m0/crouc_katos_7_h.jpg",
+      "produced_by": "na",
+      "title": "Crouching Tiger, Hidden Dragon",
+      "url": "https://www.allmovie.com/movie/crouching-tiger-hidden-dragon-v201837",
+      "id": 3
+    },
+    {
+      "crawled_at": "11/17/2019, 23:18:10",
+      "description": "\n            It's Christmas time in L.A., and there's an employee party in progress on the 30th floor of the Nakatomi Corporation building. The revelry comes to a violent end when the partygoers are taken hostage by a group of terrorists headed by Hans Gruber (Alan Rickman), who plan to steal the 600 million dollars locked in Nakatomi's high-tech safe.        ",
+      "directed_by": "John McTiernan",
+      "poster": "https://cps-static.rovicorp.com/2/Open/20th%20Century%20Fox/Die%20Hard/_derived_jpg_q90_500x500_m0/DieHard-PosterArt.jpg",
+      "produced_by": "na",
+      "title": "Die Hard",
+      "url": "https://www.allmovie.com/movie/die-hard-v13728",
+      "id": 4
+    },
+    {
+      "crawled_at": "11/17/2019, 23:18:10",
+      "description": "\n            In 1820s America, frontiersman and fur trapper Hugh Glass (Leonardo DiCaprio) and his teenage son Hawk (Forrest Goodluck) join a pelt-gathering expedition.      ",
+      "directed_by": "Alejandro González Iñárritu",
+      "poster": "https://cps-static.rovicorp.com/2/Open/20th_Century_Fox_39/Program/24045357/_derived_jpg_q90_500x500_m0/Revenant_1536x2048.jpg",
+      "produced_by": "na",
+      "title": "The Revenant",
+      "url": "https://www.allmovie.com/movie/the-revenant-v597171",
+      "id": 5
+    },
+    {
+      "title": "Avengers",
+      "poster": "https://images.unsplash.com/photo-1561149877-84d268ba65b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80",
+      "directed_by": "Antonny Russo",
+      "description": "The movie is amazing",
+      "producer": "Marvel Studios",
+      "crawled_at": "2 ,May 2022",
+      "category": "Action",
+      "id": 9
+    }
+  ]
+}
