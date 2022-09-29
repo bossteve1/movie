@@ -49,7 +49,8 @@ setPost([name,favoriteMovie,comment])
         <h2>Our Customers comments</h2>
         <div>
             <h3>{post[0]}</h3>
-            <h4>{post[1]}</h4>
+            <h4>Favorite Movie</h4>
+                <ul>{post[1]}</ul>
             <p>{post[2]}</p>
         </div>
     </div>
