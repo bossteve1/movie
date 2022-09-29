@@ -11,6 +11,8 @@ import Comments from "./components/comments"
 import Watchlist from './Components/Watchlist';
 import watch from "./data/data";
 import Series from './components/Series';
+import NavBar from './components/NavBar';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 
 
@@ -18,13 +20,18 @@ function App() {
   const [list, setList] = useState(watch)
 
   return (
-    <div className="App">
-      <Series/>
-      <Homepage/>
-      <Comments/>
-      <AddMovie />
-      <Watchlist list={list} setList={setList} />
+    <BrowserRouter>
+    <div className='App'>
+      <NavBar />
+      <Routes>
+        <Route path={'/'}  element={<Homepage/>} exact/>
+        <Route path={"/series"} element={<Series/>} />
+        <Route path={"/comments"} element={<Comments/>}/>
+        <Route path={"/addmovie"} element={<AddMovie />} />
+        <Route path={"/watchlist"} element={<Watchlist list={list} setList={setList} />}/>
+      </Routes>
     </div>
+    </BrowserRouter>
   );
 }
 
