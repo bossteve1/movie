@@ -10,6 +10,7 @@ import Comments from "./components/comments"
 
 import Watchlist from './Components/Watchlist';
 import watch from "./data/data";
+import Series from './components/Series';
 
 
 
@@ -18,8 +19,8 @@ function App() {
 
   return (
     <div className="App">
-      			<Homepage/>
-
+      <Series/>
+      <Homepage/>
       <Comments/>
       <AddMovie />
       <Watchlist list={list} setList={setList} />
