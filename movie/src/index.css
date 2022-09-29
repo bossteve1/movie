@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  font-size:large ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input,
+select {
+  border: 3px solid rgb(64, 42, 42);
+  padding: 0.5rem 1rem;
+  margin: 0.25rem 0 1rem;
+  font-size: 1rem;
+}
+label{
+  font-size:22px;
+  font-family: fantasy;
+}
+.moviediv{
+  margin-top: 50px;
+}
+
+.header{
+  font-size:40px;
+  color: blue;
+
+}
+
+.movie_item{
+  width: 100em;
+}
