@@ -2,6 +2,7 @@ import Items from '../Db.json'
 function Series(){
     return(
         <div>
+        <h1>Series</h1>
             {
             Items.map(show =>{
             return(
